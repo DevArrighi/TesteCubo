@@ -1,0 +1,7 @@
+C:\Users\Felipe\Documents\Visual Studio 2015\Projects\Teste\Teste.TesteUnitario\bin\Debug\Teste.TesteUnitario.dll
+C:\Users\Felipe\Documents\Visual Studio 2015\Projects\Teste\Teste.TesteUnitario\bin\Debug\Teste.TesteUnitario.pdb
+C:\Users\Felipe\Documents\Visual Studio 2015\Projects\Teste\Teste.TesteUnitario\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Felipe\Documents\Visual Studio 2015\Projects\Teste\Teste.TesteUnitario\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Felipe\Documents\Visual Studio 2015\Projects\Teste\Teste.TesteUnitario\obj\Debug\Teste.TesteUnitario.csprojResolveAssemblyReference.cache
+C:\Users\Felipe\Documents\Visual Studio 2015\Projects\Teste\Teste.TesteUnitario\obj\Debug\Teste.TesteUnitario.dll
+C:\Users\Felipe\Documents\Visual Studio 2015\Projects\Teste\Teste.TesteUnitario\obj\Debug\Teste.TesteUnitario.pdb

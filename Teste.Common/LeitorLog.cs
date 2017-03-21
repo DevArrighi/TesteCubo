@@ -18,7 +18,7 @@ namespace Teste.Common
         public static List<string> LerArquivo(string path)
         {
             //Carregar o arquivo atraves do path parametrizado
-            var conteudo = System.IO.File.ReadAllText(@"C:\Users\Felipe\Desktop\grid1.txt");
+            var conteudo = System.IO.File.ReadAllText(path);
 
             //Quebra texto em linhas
             var linhas = conteudo.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries).ToList();

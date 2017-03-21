@@ -33,20 +33,20 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ofdArquivoLog = new System.Windows.Forms.OpenFileDialog();
             this.gdvResultado = new System.Windows.Forms.DataGridView();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.gdvRanking = new System.Windows.Forms.DataGridView();
-            this.lvlRanking = new System.Windows.Forms.Label();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PosicaoChegada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CodigoPiloto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NomePiloto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.QuantidadeVoltas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TempoTotalProva = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.VelocidadeMedia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lblTempoChegadas = new System.Windows.Forms.Label();
+            this.lvlRanking = new System.Windows.Forms.Label();
+            this.gdvRanking = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gdvResultado)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -103,83 +103,6 @@
             this.gdvResultado.TabIndex = 3;
             this.gdvResultado.VirtualMode = true;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.lblTempoChegadas);
-            this.groupBox2.Controls.Add(this.lvlRanking);
-            this.groupBox2.Controls.Add(this.gdvRanking);
-            this.groupBox2.Controls.Add(this.gdvResultado);
-            this.groupBox2.Location = new System.Drawing.Point(12, 86);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(736, 435);
-            this.groupBox2.TabIndex = 4;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Resultado";
-            // 
-            // gdvRanking
-            // 
-            this.gdvRanking.AllowUserToAddRows = false;
-            this.gdvRanking.AllowUserToDeleteRows = false;
-            this.gdvRanking.AllowUserToResizeRows = false;
-            this.gdvRanking.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            this.gdvRanking.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gdvRanking.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5});
-            this.gdvRanking.Location = new System.Drawing.Point(6, 217);
-            this.gdvRanking.MultiSelect = false;
-            this.gdvRanking.Name = "gdvRanking";
-            this.gdvRanking.ReadOnly = true;
-            this.gdvRanking.Size = new System.Drawing.Size(428, 167);
-            this.gdvRanking.TabIndex = 4;
-            this.gdvRanking.VirtualMode = true;
-            // 
-            // lvlRanking
-            // 
-            this.lvlRanking.AutoSize = true;
-            this.lvlRanking.Location = new System.Drawing.Point(6, 197);
-            this.lvlRanking.Name = "lvlRanking";
-            this.lvlRanking.Size = new System.Drawing.Size(177, 13);
-            this.lvlRanking.TabIndex = 5;
-            this.lvlRanking.Text = "Ranking melhor volta de cada piloto";
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "PosicaoChegada";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Posição Melhor Volta";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 99;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "NomePiloto";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Nome Piloto";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Width = 82;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "NumeroVolta";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Num. Volta";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            this.dataGridViewTextBoxColumn4.Width = 78;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "TempoTotalProva";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Tempo Total de Prova";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            // 
             // PosicaoChegada
             // 
             this.PosicaoChegada.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
@@ -233,6 +156,19 @@
             this.VelocidadeMedia.Name = "VelocidadeMedia";
             this.VelocidadeMedia.ReadOnly = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.lblTempoChegadas);
+            this.groupBox2.Controls.Add(this.lvlRanking);
+            this.groupBox2.Controls.Add(this.gdvRanking);
+            this.groupBox2.Controls.Add(this.gdvResultado);
+            this.groupBox2.Location = new System.Drawing.Point(12, 86);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(736, 395);
+            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Resultado";
+            // 
             // lblTempoChegadas
             // 
             this.lblTempoChegadas.AutoSize = true;
@@ -242,14 +178,80 @@
             this.lblTempoChegadas.TabIndex = 6;
             this.lblTempoChegadas.Text = "Ranking melhor volta de cada piloto";
             // 
+            // lvlRanking
+            // 
+            this.lvlRanking.AutoSize = true;
+            this.lvlRanking.Location = new System.Drawing.Point(6, 197);
+            this.lvlRanking.Name = "lvlRanking";
+            this.lvlRanking.Size = new System.Drawing.Size(177, 13);
+            this.lvlRanking.TabIndex = 5;
+            this.lvlRanking.Text = "Ranking melhor volta de cada piloto";
+            // 
+            // gdvRanking
+            // 
+            this.gdvRanking.AllowUserToAddRows = false;
+            this.gdvRanking.AllowUserToDeleteRows = false;
+            this.gdvRanking.AllowUserToResizeRows = false;
+            this.gdvRanking.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.gdvRanking.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gdvRanking.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5});
+            this.gdvRanking.Location = new System.Drawing.Point(6, 217);
+            this.gdvRanking.MultiSelect = false;
+            this.gdvRanking.Name = "gdvRanking";
+            this.gdvRanking.ReadOnly = true;
+            this.gdvRanking.Size = new System.Drawing.Size(428, 167);
+            this.gdvRanking.TabIndex = 4;
+            this.gdvRanking.VirtualMode = true;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "PosicaoChegada";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Posição Melhor Volta";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 99;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "NomePiloto";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Nome Piloto";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Width = 82;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "NumeroVolta";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Num. Volta";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            this.dataGridViewTextBoxColumn4.Width = 78;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "TempoTotalProva";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Tempo Total de Prova";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
             // FormResultado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(760, 533);
+            this.ClientSize = new System.Drawing.Size(760, 489);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
             this.Name = "FormResultado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Leitor de Log - Corrida de Kart";
             this.Load += new System.EventHandler(this.FormResultado_Load);
             this.groupBox1.ResumeLayout(false);

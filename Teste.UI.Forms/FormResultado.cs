@@ -7,7 +7,8 @@ namespace Teste.UI.Forms
 {
     public partial class FormResultado : Form
     {
-        Corrida corrida;
+        Corrida _corrida;
+        string _cur_path;
 
         public FormResultado()
         {
@@ -19,15 +20,22 @@ namespace Teste.UI.Forms
             ofdArquivoLog.ShowDialog();
             txtPath.Text = ofdArquivoLog.FileName;
 
-            var linhas = LeitorLog.LerArquivo(ofdArquivoLog.FileName);
-            var listaVolta = Conversao.ConverterLogParaVoltas(linhas);
-            corrida = new Corrida(listaVolta);
+            if (!ofdArquivoLog.FileName.Equals(string.Empty))
+            {
+                var linhas = LeitorLog.LerArquivo(ofdArquivoLog.FileName);
+                var listaVolta = Conversao.ConverterLogParaVoltas(linhas);
+                _corrida = new Corrida(listaVolta);
 
-            gdvResultado.DataSource = corrida.ListaExibição();
+                gdvResultado.DataSource = null;
+                gdvResultado.DataSource = _corrida.ListaExibição();
 
-            gdvRanking.DataSource = corrida.RankingMelhorVoltaPorPiloto();
+                gdvRanking.DataSource = null;
+                gdvRanking.DataSource = _corrida.RankingMelhorVoltaPorPiloto();
 
-            lblTempoChegadas.Text = corrida.TempoChegadaPilotos();
+                lblTempoChegadas.Text = _corrida.TempoChegadaPilotos();
+            }
+            else
+                MessageBox.Show("Selecione um arquivo de log.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void FormResultado_Load(object sender, EventArgs e)

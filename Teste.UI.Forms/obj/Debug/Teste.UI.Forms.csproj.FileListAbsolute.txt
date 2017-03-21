@@ -1,0 +1,13 @@
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\bin\Debug\Teste.UI.Forms.exe.config
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\bin\Debug\Teste.UI.Forms.exe
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\bin\Debug\Teste.UI.Forms.pdb
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\obj\Debug\Teste.UI.Forms.csprojResolveAssemblyReference.cache
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\obj\Debug\Teste.UI.Forms.Properties.Resources.resources
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\obj\Debug\Teste.UI.Forms.csproj.GenerateResource.Cache
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\obj\Debug\Teste.UI.Forms.exe
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\obj\Debug\Teste.UI.Forms.pdb
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\bin\Debug\Teste.Common.dll
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\bin\Debug\Teste.Common.pdb
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\obj\Debug\Teste.UI.Forms.FormResultado.resources
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\bin\Debug\Teste.Entities.dll
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.UI.Forms\bin\Debug\Teste.Entities.pdb

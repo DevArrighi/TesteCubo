@@ -1,0 +1,5 @@
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.Entities\bin\Debug\Teste.Entities.dll
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.Entities\bin\Debug\Teste.Entities.pdb
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.Entities\obj\Debug\Teste.Entities.csprojResolveAssemblyReference.cache
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.Entities\obj\Debug\Teste.Entities.dll
+c:\users\felipe\documents\visual studio 2015\Projects\Teste\Teste.Entities\obj\Debug\Teste.Entities.pdb
